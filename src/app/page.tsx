@@ -1,9 +1,9 @@
-import About from "../app/components/About";
-import Resume from "../app/components/Resume";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import About from "@/src/components/About";
+import Resume from "@/src/components/Resume";
+import Contact from "@/src/components/Contact";
+import Footer from "@/src/components/Footer";
+import Projects from "@/src/components/Projects";
+import Skills from "@/src/components/Skills";
 export default function Home() {
   return (
     <main className="bg-black">

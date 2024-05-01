@@ -3,7 +3,7 @@ import Animation from "./Animation";
 
 function About() {
   return (
-    <div className="md:container md:mx-auto lg:px-20">
+    <div className="md:container md:mx-auto lg:px-20 overflow-hidden">
       <div className="py-10 text-2xl font-bold text-neutral-300 text-center">
         Resume
       </div>
