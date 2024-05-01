@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="md:container md:mx-auto space-y-10 lg:px-20">
       <Navbar />
-      <div className="flex px-5 md:px-0 md:flex-row py-16 flex-col justify-center md:justify-between items-center">
+      <div className="flex gap-14 px-5 md:px-0 md:flex-row py-10 md:py-16 flex-col justify-center md:justify-between items-center">
         <div className="space-y-4">
           <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
             Hi I&apos;m Emir
@@ -20,7 +20,7 @@ function Home() {
           />
         </div>
         <Image
-          className="rounded-full hidden md:block w-[120px] md:w-[350px]"
+          className="rounded-xl md:rounded-full w-[160px] md:w-[350px]"
           src={PP}
           alt="profile_picture"
         />
